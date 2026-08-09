@@ -1,0 +1,37 @@
+{
+  "standard_name": "ASTM E155",
+  "full_title": "Standard Reference Radiographs for Inspection of Aluminum and Magnesium Castings",
+  "issuing_organization": "ASTM International (American Society for Testing and Materials)",
+  "compliance_scope": "Industrial Radiographic NDT Quality Control & Defect Categorization",
+  "discontinuity_categories": {
+    "category_1": {
+      "name": "Gas Porosity (round voids)",
+      "description": "Spherical or elongated voids caused by trapped hydrogen gas during molten metal cooling.",
+      "severity_levels": "Grade 1 (Minor) to Grade 8 (Severe)",
+      "action": "Degassing process audit required if Severity > Grade 3"
+    },
+    "category_2": {
+      "name": "Gas Porosity (elongated voids)",
+      "description": "Elongated gas channels formed along cooling temperature gradients.",
+      "severity_levels": "Grade 1 to Grade 8",
+      "action": "Immediate REJECT if located in primary load-bearing cross-section"
+    },
+    "category_3": {
+      "name": "Shrinkage Cavity",
+      "description": "Internal voids formed due to volumetric contraction during liquid-to-solid phase change.",
+      "severity_levels": "Grade 1 to Grade 8",
+      "action": "High fatigue failure risk; REJECT and scrap component"
+    },
+    "category_4": {
+      "name": "Foreign Inclusions (dense/less dense)",
+      "description": "Oxide films, dross, or foreign particulate inclusions embedded in casting matrix.",
+      "severity_levels": "Class A to Class D",
+      "action": "Scrap component if inclusion size exceeds 1.5mm"
+    }
+  },
+  "radiographic_attenuation_rules": {
+    "dark_anomalies": "Low density voids / Gas bubbles / Shrinkage cavities",
+    "bright_anomalies": "High density foreign inclusions / Heavy metal particles",
+    "uniform_attenuation": "Dense homogeneous casting matrix (PASS)"
+  }
+}
