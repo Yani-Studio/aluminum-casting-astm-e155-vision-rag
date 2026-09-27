@@ -1,17 +1,36 @@
-# 🏭 Aluminum Casting ASTM E155 Vision-Language RAG NDT AI Inspection System
+<div align="center">
+  <h1>🏭 Aluminum Casting ASTM E155 Vision-Language RAG NDT AI Inspection System</h1>
+  <p><em>NVIDIA DGX Spark Accelerated 512D Vector Embedding Engine for Industrial RT-NDT Automation</em></p>
 
-> **NVIDIA DGX Spark (Grace Blackwell GB10 Superchip · 128GB Unified Memory)** Accelerated 512D Vector Embedding Engine for Industrial Radiographic Non-Destructive Testing (RT-NDT) Automation Platform
+  <!-- Tech Stack Badges -->
+  <p>
+    <a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/"><img src="https://img.shields.io/badge/NVIDIA_DGX_Spark-Grace_Blackwell_GB10_128GB-76B900?logo=nvidia&logoColor=white" alt="DGX Spark"></a>
+    <a href="https://www.apple.com/macbook-pro/"><img src="https://img.shields.io/badge/Apple_MacBook_Pro-M5-000000?logo=apple&logoColor=white" alt="MacBook Pro M5"></a>
+    <a href="https://pytorch.org/"><img src="https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C?logo=pytorch&logoColor=white" alt="PyTorch"></a>
+    <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit"></a>
+    <a href="https://github.com/facebookresearch/faiss"><img src="https://img.shields.io/badge/Meta_FAISS-Vector_Search_Engine-0467DF?logo=meta&logoColor=white" alt="Meta FAISS"></a>
+    <a href="https://www.astm.org/e0155-20.html"><img src="https://img.shields.io/badge/ASTM_E155-International_Standard-8B5CF6" alt="ASTM E155"></a>
+    <a href="https://huggingface.co/THUDM/glm-4v-9b"><img src="https://img.shields.io/badge/GLM--4V--9B-VLM_Foundation-2563EB" alt="GLM-4V-9B"></a>
+  </p>
+  
+  <p>
+    <a href="https://doi.org/10.5281/zenodo.22986512"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.22986512.svg" alt="DOI"></a>
+    <img src="https://img.shields.io/badge/License-All_Rights_Reserved-crimson.svg" alt="License">
+    <img src="https://img.shields.io/badge/Status-Verified_PoC-blue.svg" alt="Status">
+  </p>
 
-[![NVIDIA DGX Spark](https://img.shields.io/badge/NVIDIA_DGX_Spark-Grace_Blackwell_GB10_128GB-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
-[![Apple MacBook Pro](https://img.shields.io/badge/Apple_MacBook_Pro-M5-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/macbook-pro/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![FAISS](https://img.shields.io/badge/Meta_FAISS-Vector_Search_Engine-0467DF?style=for-the-badge&logo=meta&logoColor=white)](https://github.com/facebookresearch/faiss)
-[![ASTM E155](https://img.shields.io/badge/ASTM_E155-International_Standard-8B5CF6?style=for-the-badge)](https://www.astm.org/e0155-20.html)
-[![GLM-4V-9B](https://img.shields.io/badge/GLM--4V--9B-VLM_Foundation-2563EB?style=for-the-badge)](https://huggingface.co/THUDM/glm-4v-9b)
+  <p>
+    <b>An enterprise-grade multimodal Vision-Language RAG pipeline and automated Non-Destructive Testing (RT-NDT) inspection platform, fully standardized against ASTM E155 reference radiographs.</b>
+  </p>
+</div>
 
----
-> ⚠️ Copyright (c) 2026 Kang Gyu Min. All rights reserved.
+> [!WARNING]
+> **[Intellectual Property & Authorized Evaluation Notice]**
+> - The source code, architecture, and associated assets in this repository are permanently archived with an official Digital Object Identifier (**DOI: [10.5281/zenodo.22986512](https://doi.org/10.5281/zenodo.22986512)**) via CERN/Zenodo.
+> - Access to this repository is granted **strictly for authorized review and technical evaluation purposes**.
+> - **Unauthorized copying, reverse engineering, redistribution, commercial utilization, derivative work creation, or appropriation of model weights** without explicit prior written consent from the author is strictly prohibited.
+> - **Copyright (c) 2026 Kang Gyu Min. All rights reserved.**
+
 ---
 
 ## 🎬 Live Streamlit Demonstration Video
